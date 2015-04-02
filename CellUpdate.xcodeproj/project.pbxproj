@@ -14,6 +14,7 @@
 		AB5986291ACCCAC2004B5409 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5986281ACCCAC2004B5409 /* Images.xcassets */; };
 		AB59862C1ACCCAC2004B5409 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB59862A1ACCCAC2004B5409 /* LaunchScreen.xib */; };
 		AB5986381ACCCAC2004B5409 /* CellUpdateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5986371ACCCAC2004B5409 /* CellUpdateTests.m */; };
+		AB59867E1ACCDB0B004B5409 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB59867D1ACCDB0B004B5409 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AB5986311ACCCAC2004B5409 /* CellUpdateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellUpdateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5986361ACCCAC2004B5409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB5986371ACCCAC2004B5409 /* CellUpdateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellUpdateTests.m; sourceTree = "<group>"; };
+		AB59867C1ACCDB0B004B5409 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		AB59867D1ACCDB0B004B5409 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				AB59861F1ACCCAC2004B5409 /* AppDelegate.h */,
 				AB5986201ACCCAC2004B5409 /* AppDelegate.m */,
+				AB59867C1ACCDB0B004B5409 /* CollectionViewCell.h */,
+				AB59867D1ACCDB0B004B5409 /* CollectionViewCell.m */,
 				AB5986221ACCCAC2004B5409 /* ViewController.h */,
 				AB5986231ACCCAC2004B5409 /* ViewController.m */,
 				AB5986251ACCCAC2004B5409 /* Main.storyboard */,
@@ -221,6 +226,7 @@
 			files = (
 				AB5986241ACCCAC2004B5409 /* ViewController.m in Sources */,
 				AB5986211ACCCAC2004B5409 /* AppDelegate.m in Sources */,
+				AB59867E1ACCDB0B004B5409 /* CollectionViewCell.m in Sources */,
 				AB59861E1ACCCAC2004B5409 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				AB59863D1ACCCAC2004B5409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB59863E1ACCCAC2004B5409 /* Build configuration list for PBXNativeTarget "CellUpdateTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				AB5986401ACCCAC2004B5409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
